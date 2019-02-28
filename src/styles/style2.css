@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+.float2 {
+    background-color: orange;
+    height: 200px;
+    width: 20%;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.image2 {
+    float: left;
+    /*border-width: 4px 11px 31px 21px;*/
+    /*border-color: red;*/
+    /*border-style: double;*/
+
+    border: 10px double lightslategrey;
+    padding: 100px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.A {
+    height: 300px;
+    width: 500px;
+    background-color: orange;
+    background-image: url("../images/tickybot.svg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
