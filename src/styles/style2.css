@@ -26,6 +26,8 @@ body {
     margin: 15px;
 }
 
+
+
 .A {
     height: 300px;
     width: 500px;
@@ -35,4 +37,75 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
+    display: inline-block;
+    border-radius: 20px 120px;
+    text-align: center;
+    border: #ff9a2b solid 11px;
+    margin: 20px;
+    box-shadow: 10px -10px 10px #40596b;
+    transition: all 5s linear;
+    transform: rotate(2deg);
+
+}
+
+.A:hover{
+    width: 480px;
+    height: 320px;
+    transform: rotate(5deg);
+}
+
+.button-1{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: blue;
+    color: white;
+    font-family: Signika, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all  linear;
+}
+
+.button-1:hover {
+    background: darkblue;
+    width: 201px;
+    height: 51px;
+}
+
+.B {
+    height: 300px;
+    width: 500px;
+    background-color: dodgerblue;
+    /*background-image: linear-gradient(90deg, yellow, blue);*/
+    background-image: url("../images/tickybot.svg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    display: inline-block;
+    border-radius: 20px 120px;
+}
+
+
+
+
+
+input{
+    outline: none;
+    font-size: 18px;
+}
+
+.inp-1:focus{
+box-shadow: 0 0 10px rgba(11,22,0,1);
+}
+
+#inp-2:checked + label{
+    color: #55c0ec;
+    background: #ffd05a;
 }
